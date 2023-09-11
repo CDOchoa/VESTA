@@ -1,0 +1,97 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+/* Imagen superior izquierda */
+.imagen-izquierda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 55vw;
+}
+
+/* Texto encima de la imagen izquierda */
+.texto-encima {
+    position: absolute;
+    top: 30px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde la izquierda */
+    color: #fff; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0); /* Fondo semitransparente para mejorar la legibilidad */
+    padding: 5px; /* Espaciado interior del texto */
+    font-size: 45px;
+}
+
+ /* Estilo para el texto dentro de la etiqueta strong */
+ .texto-encima strong {
+    font-size: 90px; /* Ajusta el tamaño de fuente según tus necesidades */
+}
+
+/* Imagen superior derecha */
+.imagen-derecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 40vw; /* Ajusta el tamaño de la imagen según tu preferencia */
+}
+
+/* Imagen inferior derecha */
+.imagen-inferior-derecha {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 55vw;
+}
+
+/* Línea divisoria */
+.linea-divisoria {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    top: 1%;
+    transform: translateY(-50%);
+}
+
+/* Imagen central abajo de la línea */
+.imagen-central {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 50%;
+    top: 30%;
+}
+
+/* Texto debajo de la imagen central */
+.texto-debajo {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
+
+/* Estilos para el botón rojo */
+.boton-rojo {
+    background-color: #ff0000; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+/* Estilos cuando el mouse está sobre el botón */
+.boton-rojo:hover {
+    background-color: #cc0000; /* Cambia el color de fondo al pasar el mouse */
+}
+
